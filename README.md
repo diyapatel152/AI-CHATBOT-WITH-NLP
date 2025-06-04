@@ -16,7 +16,8 @@ MENTOR: NEELA SANTOSH
 
 This project shows how to use Python's Natural Language Processing (NLP) features to create a rule-based chatbot.  Greetings, casual talk, and queries pertaining to basic knowledge are just a few of the many user inputs that the chatbot can comprehend and react to.  It is interactive and simple to use for educational and experimental purposes because it is totally contained within a Jupyter Notebook.
 
-**Project Overview**
+**Project Overview:**
+
 The chatbot uses a predefined set of intents and patterns to recognize user queries and respond appropriately. The project is based on a lightweight NLP approach that includes tokenization, lemmatization, and vectorization using TfidfVectorizer. It then applies a simple machine learning model (LogisticRegression) to classify input sentences into categories (or intents). Each intent contains a "tag", multiple "patterns" (ways a user might ask something), and a list of "responses" that the bot can randomly choose from. For mathematical queries, such as addition or division, the bot extracts numbers from the sentence and performs calculations dynamically.
 
 **Features**
