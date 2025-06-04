@@ -14,7 +14,7 @@ MENTOR: NEELA SANTOSH
 
 ## TASK DESCRIOTON:
 
-This project is a simple yet powerful NLP-based chatbot built using Python. It is designed to simulate human-like conversation and assist users with a variety of tasks including greetings, jokes, basic knowledge responses, and arithmetic calculations such as addition, subtraction, multiplication, and division. The chatbot is implemented in a Jupyter Notebook environment, making it accessible and beginner-friendly for students, developers, or anyone exploring Natural Language Processing (NLP) and machine learning applications. It leverages NLTK (Natural Language Toolkit) for text preprocessing and classification, and includes a customizable intents dictionary to define various topics the chatbot can handle.
+This project shows how to use Python's Natural Language Processing (NLP) features to create a rule-based chatbot.  Greetings, casual talk, and queries pertaining to basic knowledge are just a few of the many user inputs that the chatbot can comprehend and react to.  It is interactive and simple to use for educational and experimental purposes because it is totally contained within a Jupyter Notebook.
 
 **Project Overview**
 The chatbot uses a predefined set of intents and patterns to recognize user queries and respond appropriately. The project is based on a lightweight NLP approach that includes tokenization, lemmatization, and vectorization using TfidfVectorizer. It then applies a simple machine learning model (LogisticRegression) to classify input sentences into categories (or intents). Each intent contains a "tag", multiple "patterns" (ways a user might ask something), and a list of "responses" that the bot can randomly choose from. For mathematical queries, such as addition or division, the bot extracts numbers from the sentence and performs calculations dynamically.
@@ -37,6 +37,8 @@ The chatbot uses a predefined set of intents and patterns to recognize user quer
 4. Type messages like “Hi”, or “Tell me a joke”.
 5. Type “quit” to exit the chat.
 
+### Output:
+![Image](https://github.com/user-attachments/assets/42600013-eaea-436d-b972-39e56a63db9c)
 
 
 
